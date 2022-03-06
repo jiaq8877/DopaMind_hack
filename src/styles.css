@@ -1,0 +1,145 @@
+.App {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #cfe3e2;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 20px 0 0 0;
+}
+.emotion-buttons {
+  display: inline;
+  margin: 20px 20px;
+  background: #9ca99d;
+  color: white;
+  border: 1px solid #9ca99d;
+  font-size: 40px;
+  text-align: center;
+  line-height: 22px;
+  padding: 20px 20px;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.emotion-buttons:hover,
+button:hover {
+  border: 1px solid #9ca99d;
+  background: white;
+  color: #9ca99d;
+}
+
+.emotion-buttons:focus,
+button:focus {
+  background-color: white;
+  color: #9ca99d;
+}
+
+.main-question {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.peanut-talk {
+  display: block;
+  margin: 0 auto;
+  background: #9ca99d;
+  color: white;
+  border: 1px solid #9ca99d;
+  font-size: 20px;
+  text-align: center;
+  line-height: 22px;
+  padding: 16px 30px;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.about-us {
+  padding: 32px;
+  margin: 0px 130px;
+  text-justify: inter-word;
+}
+
+.support {
+  padding: 32px;
+  margin: 20px 130px;
+  text-justify: inter-word;
+  min-height: 150vh;
+}
+
+.happy-tip {
+  display: block;
+  border: 1.5px solid #9ca99d;
+  background: white;
+  border-radius: 30px;
+  margin: 0 300px;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+/* .peanut-img img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+} */
+
+.option-buttons {
+  display: inline;
+  margin: 20px 20px;
+  background: #9ca99d;
+
+  color: white;
+  border: 1px solid #9ca99d;
+  font-size: 40px;
+  text-align: center;
+  line-height: 22px;
+  padding: 20px 20px;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.option-buttons:focus,
+button:focus {
+  background-color: white;
+  color: #9ca99d;
+}
+
+.nhs {
+  display: block;
+  margin: 0 auto;
+  background: #9ca99d;
+  color: white;
+  border: 1px solid #9ca99d;
+  font-size: 16px;
+  text-align: center;
+  line-height: 22px;
+  padding: 16px 30px;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.imperial-wellbeing {
+  display: block;
+  margin: 0 auto;
+  background: #9ca99d;
+  color: white;
+  border: 1px solid #9ca99d;
+  font-size: 16px;
+  text-align: center;
+  line-height: 22px;
+  padding: 16px 30px;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
